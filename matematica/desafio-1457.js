@@ -1,6 +1,8 @@
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
+
+
 var qtdCasos = Number(lines.shift())
 function oracleAlexandria(n,k){
     var total = BigInt(n)
